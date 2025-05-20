@@ -1,0 +1,150 @@
+/* General Reset */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    color: #ccc;
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Property Section */
+.property-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.property-images {
+    margin-right: 20px;
+}
+
+.main-image img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.thumbnail-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbnail-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail-images img:hover {
+    transform: scale(1.1);
+}
+
+/* Property Info */
+.property-info {
+    max-width: 500px;
+}
+
+.property-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.property-info li {
+    margin-bottom: 10px;
+}
+
+.property-features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.property-features li {
+    margin-bottom: 10px;
+}
+
+/* Map Styling */
+#map {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Contact Form */
+.contact-agent form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-agent input, 
+.contact-agent textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-agent button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-agent button:hover
